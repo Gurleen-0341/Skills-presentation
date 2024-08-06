@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Reset default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #74f0ed;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #ea445a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Sunglasses section styles */
+.sunglasses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sunglass {
+    background-color: #fef6e2;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sunglass img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sunglass h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sunglass p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Footer styles */
+footer {
+    background-color: #6bb77b;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Input box styles (optional) */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
